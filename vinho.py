@@ -232,7 +232,7 @@ proc_total = proc_total[["Mesa Total" ,"Fino Total"] ]
 
 
 # Criando o layout da aplicação
-tab0, tab1, tab2, tab3  = st.tabs(["Consumo Mundial", "Exportação", "Produção e Processamento", "Comercio"])
+tab0, tab1, tab2, tab3  = st.tabs(["Consumo Mundial", "Exportação", "Produção e Processamento", "Conclusão"])
 
 with tab0:
     st.write('### 15 Maiores Paises consumidores de vinhos')
@@ -362,3 +362,7 @@ with tab2:
     plt.legend(loc='upper left')
     st.pyplot(fig)
   
+with tab3:
+    st.write('### A Exportação de vinhos do Brasil que gera um maior valor comercial em relação ao volume produzido é a venda de espumantes finos que utilizam uvas brancas e rosadas na sua produção.')
+    st.write('### O vinho Brasileiro ainda precisa se estabelecer em mercados internacionais e criar referências nos maiores mercados consumidores de vinho.') 
+    st.write('### Com estratégia a Vinícola deveria focar seus esforços e investimentos na produção, melhoria e exportação de espumantes finos para o mercado americano (EUA) nos próximos anos.')
